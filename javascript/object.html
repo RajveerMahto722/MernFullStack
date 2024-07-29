@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let object_array=[
+       { id:101,
+        fname:"rajveer",
+        lname:"mahto",
+        age: 38,
+        city:"jaipur",
+        mobile: 7229876808,
+        skills:["c","python","c++","mern"],
+        
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:99
+        }
+//  fullname:function(){
+//     console.log(this.fname,this.lname)
+
+ },
+    
+ {
+        id:102,
+        fname:"rohit",
+        lname:"sharma",
+        age: 24,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["java","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:65
+        }
+    },
+ {
+        id:103,
+        fname:"rohit",
+        lname:"sharma",
+        age: 24,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["java","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:24
+        }
+    },
+    {
+        id:104,
+        fname:"mohit",
+        lname:"sharma",
+        age: 28,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["ruby","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:78
+        }
+    },
+    
+
+    {
+        id:105,
+        fname:"mohit",
+        lname:"sharma",
+        age: 14,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["java","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:46
+        }
+    },
+    
+
+    {
+        id:106,
+        fname:"mohit",
+        lname:"sharma",
+        age: 18,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["java","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:69
+        }
+    },
+    
+
+    {
+        id:107,
+        fname:"mohit",
+        lname:"sharma",
+        age: 43,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["java","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:69
+        }
+    },
+    
+
+    {
+        id:108,
+        fname:"mohit",
+        lname:"sharma",
+        age: 12,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["java","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:99
+        }
+    },
+    
+
+    {
+        id:109,
+        fname:"mohit",
+        lname:"sharma",
+        age: 76,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["java","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:55,
+            chemistry:44
+        }
+    },
+    
+    {
+        id:110,
+        fname:"mohit",
+        lname:"sharma",
+        age: 11,
+        city:"udaipur",
+        mobile: 322876808,
+        skills:["java","python","c++","mern"],
+        marks:{
+            maths:86,
+            physics:32,
+            chemistry:99
+        }
+    },
+    
+
+    
+
+    ];
+//         console.log(obj)
+//         console.log(obj.fname)
+//  console.log(obj.lname)
+//  console.log(obj["fname"]) // second method
+//  console.log(obj["mobile"]) 
+//console.log(obj.fullname())
+
+// (this) is take referernce  directly form objects, with help of only anonymous function.
+// let x = object_array.filter((item)=>item.age>18);
+
+
+let y = object_array.filter((item)=>
+(((item.marks.physics+item.marks.maths+item.marks.chemistry)*100)/300>70));
+console.log(y)
+
+
+   
+   </script>
+</body>
+</html>

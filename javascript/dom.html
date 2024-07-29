@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="h"> this is DOM </h1>
+
+    <button id="red"> red</button>
+    <button id="green">green</button>
+    <button id="uppercase">uppercase</button>
+   <button id="lowercase">lowercase</button>
+   <button id="increase">increase</button>
+   <button id="decrease">decrease</button>
+   <br>
+   <br>
+
+   <input type="text" id="input1">
+   <input type="text" id="input2">
+   <button id="btn">click</button>
+    <script>
+
+        document.getElementById("red").onclick = function () {
+            console.log("Hello")
+            document.getElementById("h").style.color = "red"
+        }
+        document.getElementById("green").onclick = function () {
+            document.getElementById("h").style.color = "green"
+
+        }
+
+        document.getElementById("uppercase").onclick = function () {
+            document.getElementById("h").style.textTransform="uppercase"
+
+        }
+         document.getElementById("lowercase").onclick = function () {
+            document.getElementById("h").style.textTransform="lowercase"
+
+        }
+ let count=34
+        document.getElementById("increase").onclick = function () {
+            count++;
+            document.getElementById("h").style.fontSize=count+"px"
+        }
+    
+     document.getElementById("decrease").onclick = function () {
+            --count;
+            document.getElementById("h").style.fontSize=count+"px"
+        }
+
+    document.getElementById("btn").onclick=function(){
+        let a=Number(document.getElementById("input1").value);
+        let b=Number(document.getElementById("input2").value);
+    }
+
+
+
+    </script>
+
+</body>
+
+</html>

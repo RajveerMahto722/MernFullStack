@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<input type="text">
+<button id="submit"> submit</button>
+<button id="print">print</button>
+   <script>
+
+// topics        
+//set interval
+// classs interval
+// set timeout = for perforiming for single time.
+// array
+
+// let a=10;
+//      console.log(`my age is ${a}`)
+
+      
+//      let counter=0;
+//    let a =setInterval(()=>{
+//     counter++;
+//          if(counter==10){
+//             clearInterval(a)
+//         }
+//         else{
+//             console.log(counter)
+          
+//         }
+
+//      },1000)
+
+
+//   setTimeout(function(){
+// console.log("hello")
+//  },5000)
+
+
+
+
+let arr=[];
+
+document.querySelector("#submit").onclick =()=>{
+
+let val = document.querySelector("input").value;
+document.querySelector("input").value=""
+document.querySelector("input").focus()
+ arr.push(val)
+}
+
+document.querySelector("#print").onclick = function(){
+    document.write(arr)
+    //for viewing the output  in console we can use console.log
+   // console.log(arr)
+}
+
+   </script> 
+</body>
+</html>

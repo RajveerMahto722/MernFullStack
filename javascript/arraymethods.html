@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- array msthods
+// push -- it push to last indexing
+        // pop -- it takes from last indexing
+        // unshift - it push to first indexing value in console
+        // shift -- it pop from first indexing
+        // slice -- it takes two argumnet ( , )-- it gives us the sliced value (first_value, last_value), last value is excluded -- it does not change the qrignal array
+        // splice -- it takes three argument  -- it delete the values given position from first and second and put the thrid the argument -- it is not indexing -- it change the original array
+        
+         // map -- it helps us to give the arethmetic operation to each the array values-- it does not check condition
+        // filter --it helps us to give the logical operation to each the array values -- it check condtions -- if the condtion is true than it give if not so not give
+        // reduce -- it gives us to do arethmic operation on each value of array with each other
+    // split -its used to create string  into array
+    //join- its is used to create array into string.
+    // flat- flat method is used to convert 2D Array into 1-D Array , 
+    we have also increase the count in number for 3d to 1d (2) count
+for 4d to 1d , we use count (3) -->
+<script>
+// push and pop
+//let a=[10,20,30,40,50,60,70,80,90,100];
+// a.push("aman");
+// a.push("ajay");
+// a.pop();
+// a.pop();
+// console.log(a)
+
+//a.unshift()
+
+//console.log(a.slice(-2,5)) // it always go flow from left to right no matter its negative or positive.
+
+//a.splice(4,6)
+//a.splice(1,3)
+
+//map method
+// let a=[10,20,30,40,50,60,70,80,90,100];
+// let b = a.map((item)=>{
+//     return item+1
+// })
+// console.log(a)
+// console.log(b)
+
+
+//reduce method
+
+let a=[1,2,3,4,5];
+let b= a.reduce((x,y)=>{
+    return x+y;
+
+})
+console.log(b);
+
+// let a=[100,200,3000,40,50,60,70,90,158,996,458,63];
+// // a.splice(0,5 ,"rajveer") // 1st indexing value ,2nd removing count , 3.the value we want to add
+// // console.log(a)
+
+
+// let b =a.filter((item)=>{
+//      return item>100
+// })
+// console.log(b)
+
+
+
+
+// let a = "10,20,30,40,50,60,70";     
+
+// console.log(a)
+// let b= a.split(","); // its used to create string into array
+// //console.log(b)
+// console.log(b.join("")) //  its is used to create array into string.
+
+
+// let x= []
+
+
+</script>
+</body>
+</html>

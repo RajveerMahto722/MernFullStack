@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // part-1 
+function x(i){
+
+i();
+}
+
+function y(){
+    console.log("hey  i am  y function")
+}
+x(y)
+
+//part-2
+///////////////////
+        function output(x,y,z)
+        {
+z(x,y)
+}
+function sum(a,b){
+console.log(a+b)
+}
+output(10,40,sum)
+</script>
+</body>
+</html>
